@@ -8,3 +8,9 @@ body {
 }
 
 /* ------------------------------------- */
+.check:checked + label {
+	color: red;
+}
+.check {
+	display: none;
+}
